@@ -20,7 +20,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/87618149?v=4",
       "profile": "https://github.com/csgoearn",
       "contributions": [
-        "code"
+        "code",
+        "test",
+        "projectManagement"
       ]
     }
   ],
