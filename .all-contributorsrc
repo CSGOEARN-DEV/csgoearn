@@ -35,6 +35,18 @@
         "doc",
         "projectManagement"
       ]
+    },
+    {
+      "login": "marnov042",
+      "name": "marnov042",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93351847?v=4",
+      "profile": "https://github.com/marnov042",
+      "contributions": [
+        "code",
+        "ideas",
+        "plugin",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
