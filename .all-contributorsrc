@@ -24,6 +24,17 @@
         "test",
         "projectManagement"
       ]
+    },
+    {
+      "login": "walkxcode",
+      "name": "Walkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71191962?v=4",
+      "profile": "https://walkx.org",
+      "contributions": [
+        "content",
+        "doc",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
