@@ -63,7 +63,7 @@ _Will be added using [All Contributors](https://github.com/all-contributors/all-
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Abdxrrahman"><img src="https://avatars.githubusercontent.com/u/71223870?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abdurrahman Giumale</b></sub></a><br /><a href="#design-Abdxrrahman" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/csgoearn"><img src="https://avatars.githubusercontent.com/u/87618149?v=4?s=100" width="100px;" alt=""/><br /><sub><b>csgoearn</b></sub></a><br /><a href="https://github.com/CSGOEARN-DEV/csgoearn/commits?author=csgoearn" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/csgoearn"><img src="https://avatars.githubusercontent.com/u/87618149?v=4?s=100" width="100px;" alt=""/><br /><sub><b>csgoearn</b></sub></a><br /><a href="https://github.com/CSGOEARN-DEV/csgoearn/commits?author=csgoearn" title="Code">💻</a> <a href="https://github.com/CSGOEARN-DEV/csgoearn/commits?author=csgoearn" title="Tests">⚠️</a> <a href="#projectManagement-csgoearn" title="Project Management">📆</a></td>
   </tr>
 </table>
 
