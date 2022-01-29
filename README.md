@@ -52,7 +52,7 @@ $ pyinstaller --clean --onefile main.py
 ```
 
 ## Contributors
-@marnov042 
-@WalkxCode
-@Abdxrrahman
-@csgoearn
+- [@marnov042](https://github.com/marnov042)
+- [@walkxcode](https://github.com/walkxcode)
+- [@Abdxrrahman](https://github.com/Abdxrrahman)
+- [@csgoearn](https://github.com/csgoearn)
