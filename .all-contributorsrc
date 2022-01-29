@@ -22,7 +22,10 @@
       "contributions": [
         "code",
         "test",
-        "projectManagement"
+        "projectManagement",
+        "business",
+        "ideas",
+        "maintenance"
       ]
     }
   ],
