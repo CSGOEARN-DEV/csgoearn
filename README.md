@@ -55,19 +55,7 @@ $ pyinstaller --clean --onefile main.py
 ```
 
 ## Contributors
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/Abdxrrahman"><img src="https://avatars.githubusercontent.com/u/71223870?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abdurrahman Giumale</b></sub></a><br /><a href="#design-Abdxrrahman" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/csgoearn"><img src="https://avatars.githubusercontent.com/u/87618149?v=4?s=100" width="100px;" alt=""/><br /><sub><b>csgoearn</b></sub></a><br /><a href="https://github.com/CSGOEARN-DEV/csgoearn/commits?author=csgoearn" title="Code">💻</a> <a href="https://github.com/CSGOEARN-DEV/csgoearn/commits?author=csgoearn" title="Tests">⚠️</a> <a href="#projectManagement-csgoearn" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://walkx.org"><img src="https://avatars.githubusercontent.com/u/71191962?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Walkx</b></sub></a><br /><a href="#content-walkxcode" title="Content">🖋</a> <a href="https://github.com/CSGOEARN-DEV/csgoearn/commits?author=walkxcode" title="Documentation">📖</a> <a href="#projectManagement-walkxcode" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://github.com/marnov042"><img src="https://avatars.githubusercontent.com/u/93351847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>marnov042</b></sub></a><br /><a href="https://github.com/CSGOEARN-DEV/csgoearn/commits?author=marnov042" title="Code">💻</a> <a href="#ideas-marnov042" title="Ideas, Planning, & Feedback">🤔</a> <a href="#plugin-marnov042" title="Plugin/utility libraries">🔌</a> <a href="https://github.com/CSGOEARN-DEV/csgoearn/commits?author=marnov042" title="Tests">⚠️</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+@marnov042 
+@WalkxCode
+@Abdxrrahman
+@csgoearn
