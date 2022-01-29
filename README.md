@@ -55,8 +55,6 @@ $ pyinstaller --clean --onefile main.py
 ```
 
 ## Contributors
-_Will be added using [All Contributors](https://github.com/all-contributors/all-contributors) soon._
-
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
