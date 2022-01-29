@@ -11,7 +11,7 @@
   </strong>
   <br>
   <br>
-  <img src="/assets/icon.png">
+  <img height="100" src="/assets/icon.png">
 </center>
 
 ## Table of contents
