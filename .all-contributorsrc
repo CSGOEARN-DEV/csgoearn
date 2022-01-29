@@ -22,7 +22,10 @@
       "contributions": [
         "code",
         "test",
-        "projectManagement"
+        "projectManagement",
+        "maintenance"
+        "business",
+        "ideas"
       ]
     },
     {
@@ -33,7 +36,8 @@
       "contributions": [
         "content",
         "doc",
-        "projectManagement"
+        "projectManagement",
+        "maintenance"
       ]
     }
   ],
