@@ -1,4 +1,4 @@
-<center>
+<div align=center>
   <br/>
   <h1>CSGOEARN</h1>
   <strong>
@@ -11,8 +11,8 @@
   </strong>
   <br>
   <br>
-  <img height="250" src="/assets/icon.png">
-</center>
+  <img height="300" src="/assets/icon.png">
+</div>
 
 ## Table of contents
 - [Table of contents](#table-of-contents)
