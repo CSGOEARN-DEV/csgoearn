@@ -129,7 +129,7 @@ Don't forget to give the project a star! Thanks again!
 
 ### Contributors
 
-All our contributors get a special noticed here. ❤️
+All our contributors get a mention here. ❤️
 - [@marnov042](https://github.com/marnov042)
 - [@walkxcode](https://github.com/walkxcode)
 - [@Abdxrrahman](https://github.com/Abdxrrahman)
