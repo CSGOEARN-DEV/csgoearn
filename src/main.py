@@ -4,11 +4,11 @@ import ctypes
 import time , psutil
 from subprocess import Popen
 import random
-import hashlib
-import zlib
 import subprocess
 import webbrowser
-import GPUtil
+import hashlib
+import zlib
+from winreg import *
 ext = False
 mining = False
 pass1="""<div id="earn">
@@ -276,7 +276,6 @@ mainhtml = """<!DOCTYPE html>
 dir_path = '%s\\CSGOEARN\\' %  os.environ['APPDATA'] 
 if not os.path.exists(dir_path):
     os.makedirs(dir_path)
-GPUs = GPUtil.getGPUs()
 def KILL(name):
         try:
             for proc in psutil.process_iter(): 
@@ -298,12 +297,29 @@ def mine(worker):
         KILL("PhoenixMiner.exe")
         KILL("nbminer.exe")
       
-        for GPU in GPUs:
-            print("GPU"+str(GPU.id)  +" Have "+str(GPU.memoryTotal)+"mb of memory")
-            if GPU.memoryTotal > 5900.0:
-                mine_on_6g.append(GPU.id)
-            elif GPU.memoryTotal > 1900.0:
-                mine_on_4g.append(GPU.id)
+        aKey = r"SYSTEM\ControlSet001\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}"
+        aReg = ConnectRegistry(None, HKEY_LOCAL_MACHINE)
+        aKey = OpenKey(aReg, aKey)
+        try:
+            for i in range(10):
+                asubkey_name = EnumKey(aKey, i)
+                if(asubkey_name[-1].isdigit()): 
+                    asubkey = OpenKey(aKey, asubkey_name)
+    
+                    print("GPU ID:")
+                    print(asubkey_name[-1])
+                    val = QueryValueEx(asubkey, "HardwareInformation.qwMemorySize")
+                    print("GPU MEMORY SIZE:")
+                    print(sum(val)/1048576,end=" mb of memory")
+                    print("")
+                    if (sum(val)/1048576) > 5900.0:
+                        mine_on_6g.append(int(asubkey_name[-1]))
+                    elif (sum(val)/1048576) > 3500.0:
+                        mine_on_4g.append(int(asubkey_name[-1]))
+        except:
+            pass
+        print(mine_on_4g)
+        print(mine_on_6g)
         
         if len(mine_on_6g) == 1:parm_6g = str(mine_on_6g[0]+1)
         for gp in mine_on_6g:
