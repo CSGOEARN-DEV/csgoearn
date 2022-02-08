@@ -463,7 +463,7 @@ def loginr(username,password):
     else:
         ceUI.denied_login("Failed to login!")
     
-    
+  
 @eel.expose
 def starts():
     #START MINER
@@ -516,3 +516,4 @@ class ceUI:
   
 
 ceUI.innit()
+#:)
